@@ -1,7 +1,7 @@
 {
   "domain": "mammotion",
   "name": "Mammotion",
-  "version": "0.5.28-beta1",
+  "version": "0.5.28-beta2",
   "issue_tracker": "https://github.com/mikey0000/Mammotion-HA/issues",
   "integration_type": "device",
   "bluetooth": [
@@ -20,7 +20,10 @@
     "@mikey0000"
   ],
   "config_flow": true,
-  "after_dependencies": ["web_rtc", "go2rtc"],
+  "after_dependencies": [
+    "web_rtc",
+    "go2rtc"
+  ],
   "dependencies": [
     "bluetooth_adapters",
     "http"
