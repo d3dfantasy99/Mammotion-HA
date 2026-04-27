@@ -31,7 +31,7 @@
   ],
   "iot_class": "local_push",
   "requirements": [
-    "pymammotion==0.7.82",
+    "pymammotion @ git+https://github.com/d3dfantasy99/PyMammotion.git@main",
     "sdp-transform==1.1.0"
   ]
 }
